@@ -4,7 +4,7 @@
 
 ## 다운로드 및 설치
 
-**[최신 수정 ZIP 다운로드](https://github.com/soke803/AnnotateWeb/releases/download/v1.2.4/AnnotateWeb_v1.2.4.zip)**
+**[최신 수정 ZIP 다운로드](https://github.com/soke803/AnnotateWeb/raw/refs/heads/main/downloads/AnnotateWeb_v1.2.4.zip)**
 
 [저장소의 ZIP 파일](downloads/AnnotateWeb_v1.2.4.zip)에서도 Download raw file(↓)을 눌러 받을 수 있습니다.
 
