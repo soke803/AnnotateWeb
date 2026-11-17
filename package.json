@@ -1,0 +1,7 @@
+{
+  "name": "annotateweb-local-tests",
+  "private": true,
+  "version": "1.2.4",
+  "scripts": {"test": "node tests/toggle-recovery.cjs"},
+  "devDependencies": {"playwright": "1.62.1"}
+}

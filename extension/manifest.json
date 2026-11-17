@@ -1,0 +1,70 @@
+{
+  "action": {
+    "default_title": "Annotate Web: 주석 켜기/끄기"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "default_locale": "en",
+  "description": "Viewport-bounded drawing, resilient ON/OFF controls, and local OFF/Escape recovery.",
+  "homepage_url": "https://annotateweb.org/",
+  "icons": {
+    "128": "icons/128x128.png",
+    "16": "icons/16x16.png",
+    "48": "icons/48x48.png",
+    "64": "icons/64x64.png",
+    "96": "icons/96x96.png"
+  },
+  "manifest_version": 3,
+  "name": "Annotate Web - Viewport Toggle + Smooth + Arrow (Local)",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "notifications",
+    "storage"
+  ],
+  "version": "1.2.4",
+  "web_accessible_resources": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "resources": [
+        "icons/16x16.png",
+        "icons/48x48.png",
+        "icons/64x64.png",
+        "icons/96x96.png",
+        "icons/draw-128.svg",
+        "icons/128x128.png",
+        "icons/pencil.png",
+        "icons/undo.png",
+        "icons/redo.png",
+        "icons/clear.png",
+        "icons/circle.png",
+        "icons/square.png",
+        "icons/triangle.png",
+        "icons/arrow.png",
+        "icons/text.png",
+        "icons/line.png",
+        "icons/highlight.png"
+      ]
+    }
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "shortcut.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": false
+    }
+  ]
+}

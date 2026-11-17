@@ -1,0 +1,66 @@
+{
+  "browser": "Chromium 1200x800, DPR 1",
+  "fixtures": [
+    {
+      "kind": "root",
+      "errors": [],
+      "liveAlpha": 255,
+      "committedAlpha": 255,
+      "undoAlpha": 0,
+      "redoAlpha": 255,
+      "reloadAlpha": 255,
+      "scrollAlpha": null,
+      "returnAlpha": null,
+      "extra": {
+        "wheelScroll": 160,
+        "rootWheelScroll": 160,
+        "activeClicks": 0,
+        "suspendedClicks": 1,
+        "inputFocused": true,
+        "savedText": true,
+        "textContainerRef": "root"
+      }
+    },
+    {
+      "kind": "nested",
+      "errors": [],
+      "liveAlpha": 255,
+      "committedAlpha": 255,
+      "undoAlpha": 0,
+      "redoAlpha": 255,
+      "reloadAlpha": 255,
+      "scrollAlpha": 255,
+      "returnAlpha": 255,
+      "extra": {
+        "wheelScroll": 160,
+        "rootWheelScroll": 0,
+        "activeClicks": 0,
+        "suspendedClicks": 1,
+        "inputFocused": true,
+        "savedText": true,
+        "textContainerRef": "b0060911-d817-4025-9433-53e54414a6c4"
+      }
+    },
+    {
+      "kind": "tall",
+      "errors": [],
+      "liveAlpha": 255,
+      "committedAlpha": 255,
+      "undoAlpha": 0,
+      "redoAlpha": 255,
+      "reloadAlpha": 255,
+      "scrollAlpha": null,
+      "returnAlpha": null,
+      "extra": {
+        "wheelScroll": 160,
+        "rootWheelScroll": 0,
+        "activeClicks": 0,
+        "suspendedClicks": 1,
+        "inputFocused": true,
+        "savedText": true,
+        "textContainerRef": "ea094cf5-e0c4-466b-a0af-c8c9fd1699e0"
+      }
+    }
+  ],
+  "note": "Chrome API boundary substituted; not a native MV3 install test."
+}

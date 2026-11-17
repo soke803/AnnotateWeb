@@ -1,0 +1,74 @@
+{
+  "passed": 17,
+  "results": [
+    {
+      "name": "cold tab opened before extension installation: icon ON then OFF",
+      "passed": true
+    },
+    {
+      "name": "30 icon toggles retain working OFF",
+      "passed": true
+    },
+    {
+      "name": "missing toolbar while ON: first click OFF, next click rebuilds ON",
+      "passed": true
+    },
+    {
+      "name": "missing overlay while ON: OFF then new overlay on next ON",
+      "passed": true
+    },
+    {
+      "name": "suspend callback throws: OFF still unlocks the page",
+      "passed": true
+    },
+    {
+      "name": "lost message reply is retried once without toggling twice",
+      "passed": true
+    },
+    {
+      "name": "hung messaging falls back; next click remains usable",
+      "passed": true
+    },
+    {
+      "name": "script API never resolves: queue times out and next click can turn OFF",
+      "passed": true
+    },
+    {
+      "name": "lost ON reply does not invert successful activation",
+      "passed": true
+    },
+    {
+      "name": "CSS load failure leaves no overlay trap and next click recovers",
+      "passed": true
+    },
+    {
+      "name": "mid-initialization exception removes lock/listeners and permits retry",
+      "passed": true
+    },
+    {
+      "name": "localStorage access denied does not prevent activation or OFF",
+      "passed": true
+    },
+    {
+      "name": "service worker restart still controls resident engine",
+      "passed": true
+    },
+    {
+      "name": "toolbar OFF works even when runtime messaging throws",
+      "passed": true
+    },
+    {
+      "name": "Escape works even when runtime messaging throws",
+      "passed": true
+    },
+    {
+      "name": "rapid queued icon clicks preserve odd/even parity",
+      "passed": true
+    },
+    {
+      "name": "shortcut cold activation and warm OFF",
+      "passed": true
+    }
+  ],
+  "expectedFaultLogs": 3
+}

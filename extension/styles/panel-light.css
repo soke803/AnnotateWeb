@@ -1,0 +1,52 @@
+/* Light Theme - General Panel Styling */
+#control-panel {
+  background: rgba(245, 245, 245, 0.9) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Light Theme - Button Styling */
+#shape-container button {
+  filter: brightness(0) invert(0) !important;
+}
+
+.active-shape {
+  background-color: rgba(0, 0, 0, 0.05) !important;
+  box-shadow: 0 0 15px rgba(7, 0, 0, 0.945) !important;
+}
+
+#dropdown-menu {
+  background: rgba(245, 245, 245, 0.9) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+/* Light Theme - Dropdown Menu Items */
+.action-picker {
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Light Theme - Buttons */
+.action-button,
+#dropdown-button {
+  background: linear-gradient(135deg, #e0e0e0, #ffffff);
+}
+
+.webdraw-icon--action {
+  filter: brightness(0) !important;
+}
+
+#clear-button:hover {
+  box-shadow: 0 0 10px rgba(255, 77, 77, 0.3);
+}
+
+/* ползунок толщины в светлой теме */
+#control-panel input[type="range"]           { background:#ccc !important; }
+#control-panel input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance:none;
+  width:12px; height:12px;
+  background: var(--button-bg-color);
+  border:2px solid #fff;
+  border-radius:50%;
+}
